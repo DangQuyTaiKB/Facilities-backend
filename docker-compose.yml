@@ -1,0 +1,93 @@
+version: "3.9"
+
+services:
+  apollo:
+    image: apollo
+    build:
+      context: ./apollo
+    depends_on:
+      - gql_ug
+      # - gql_workflow
+      # - gql_events
+      - gql_facilities
+    ports:
+      - 31121:3000
+
+  gql_ug:
+    image: gql_ug
+    build:
+      context: ./gql_ug
+    environment: 
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=data
+    depends_on:
+      - postgres
+    ports:
+      - 31120:8000
+
+  # gql_workflow:
+  #   image: gql_workflow
+  #   build:
+  #     context: ./gql_workflow
+  #   environment: 
+  #     - POSTGRES_USER=postgres
+  #     - POSTGRES_PASSWORD=example
+  #     - POSTGRES_DB=data
+  #   depends_on:
+  #     - postgres
+  #     - gql_ug
+  #   ports:
+  #     - 31123:8000
+
+  gql_facilities:
+    image: gql_facilities
+    build:
+      context: ./gql_facilities
+    environment: 
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=data
+    depends_on:
+      - postgres
+      - gql_ug
+    ports:
+      - 31128:8000
+
+  # gql_events:
+  #   image: gql_events
+  #   build:
+  #     context: ./gql_events
+  #   environment: 
+  #     - POSTGRES_USER=postgres
+  #     - POSTGRES_PASSWORD=example
+  #     - POSTGRES_DB=data
+  #   depends_on:
+  #     - postgres
+
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=example
+      - POSTGRES_DB=data
+    
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: always
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=anoyne@anywhere.com
+      - PGADMIN_DEFAULT_PASSWORD=example
+    ports:
+      - 31122:80
+
+  nginx:
+    build:
+      context: ./nginx
+    ports:
+      - 31180:80
+    depends_on:
+      - postgres
+      - apollo
+
+
