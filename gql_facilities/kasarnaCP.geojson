@@ -1,0 +1,696 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-06-07T13:16:38Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44368235",
+        "barrier": "wall",
+        "landuse": "military",
+        "military": "barracks",
+        "name": "Kasárna Černá Pole",
+        "source": "uhul:ortofoto"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.6159165,
+              49.2153019
+            ],
+            [
+              16.6163799,
+              49.2144907
+            ],
+            [
+              16.616393,
+              49.2144678
+            ],
+            [
+              16.6164136,
+              49.2144316
+            ],
+            [
+              16.6168072,
+              49.2137426
+            ],
+            [
+              16.6169187,
+              49.2136987
+            ],
+            [
+              16.6170097,
+              49.2136918
+            ],
+            [
+              16.6170221,
+              49.2136675
+            ],
+            [
+              16.6170533,
+              49.2136153
+            ],
+            [
+              16.6170721,
+              49.2135862
+            ],
+            [
+              16.6170801,
+              49.2135709
+            ],
+            [
+              16.616994,
+              49.21343
+            ],
+            [
+              16.6173066,
+              49.2128849
+            ],
+            [
+              16.617388,
+              49.2128242
+            ],
+            [
+              16.6222992,
+              49.214162
+            ],
+            [
+              16.6223645,
+              49.2142767
+            ],
+            [
+              16.6220893,
+              49.2146864
+            ],
+            [
+              16.6220678,
+              49.2147904
+            ],
+            [
+              16.6219805,
+              49.2149406
+            ],
+            [
+              16.6213899,
+              49.2158495
+            ],
+            [
+              16.620843,
+              49.2166923
+            ],
+            [
+              16.6206593,
+              49.2166397
+            ],
+            [
+              16.6206157,
+              49.2167033
+            ],
+            [
+              16.6179665,
+              49.2159596
+            ],
+            [
+              16.617853,
+              49.2159751
+            ],
+            [
+              16.616538,
+              49.2156046
+            ],
+            [
+              16.6163801,
+              49.2154394
+            ],
+            [
+              16.6159165,
+              49.2153019
+            ]
+          ]
+        ]
+      },
+      "id": "way/44368235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51745073",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6199535,
+          49.2153535
+        ]
+      },
+      "id": "way/51745073"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080276",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45556636",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6194274,
+          49.2158364
+        ]
+      },
+      "id": "way/306080276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080278",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45555303",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6200435,
+          49.2158917
+        ]
+      },
+      "id": "way/306080278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080279",
+        "building": "warehouse",
+        "building:levels": "1",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45571163",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6212637,
+          49.2150965
+        ]
+      },
+      "id": "way/306080279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080280",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45556695",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6197259,
+          49.2138103
+        ]
+      },
+      "id": "way/306080280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080282",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45547564",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6210456,
+          49.2154414
+        ]
+      },
+      "id": "way/306080282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080283",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39473970",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6205566,
+          49.216032
+        ]
+      },
+      "id": "way/306080283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080284",
+        "building": "civic",
+        "building:ruian:type": "15",
+        "ref:ruian:building": "39472485",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6177229,
+          49.2143107
+        ]
+      },
+      "id": "way/306080284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080285",
+        "building": "civic",
+        "building:levels": "4",
+        "building:ruian:type": "5",
+        "ref:ruian:building": "45545910",
+        "roof:levels": "0",
+        "roof:shape": "hipped",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6164814,
+          49.2149756
+        ]
+      },
+      "id": "way/306080285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080286",
+        "building": "residential",
+        "building:levels": "4",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39472493",
+        "roof:levels": "0",
+        "roof:shape": "pyramidal",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6175005,
+          49.2132402
+        ]
+      },
+      "id": "way/306080286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080287",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45556709",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6184052,
+          49.2135218
+        ]
+      },
+      "id": "way/306080287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080289",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45571198",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6193768,
+          49.2137886
+        ]
+      },
+      "id": "way/306080289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080290",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45556717",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6187372,
+          49.213614
+        ]
+      },
+      "id": "way/306080290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080291",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39474011",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6190435,
+          49.2136971
+        ]
+      },
+      "id": "way/306080291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080292",
+        "building": "service",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39488543",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6177826,
+          49.2155926
+        ]
+      },
+      "id": "way/306080292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080294",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39472515",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6211814,
+          49.2156785
+        ]
+      },
+      "id": "way/306080294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080298",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39472523",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6204804,
+          49.216538
+        ]
+      },
+      "id": "way/306080298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080300",
+        "building": "industrial",
+        "building:levels": "1",
+        "building:ruian:type": "16",
+        "ref:ruian:building": "45545928",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.617162,
+          49.2132323
+        ]
+      },
+      "id": "way/306080300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080302",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45547556",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6206813,
+          49.2155378
+        ]
+      },
+      "id": "way/306080302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080303",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45555290",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6210826,
+          49.2161287
+        ]
+      },
+      "id": "way/306080303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080305",
+        "building": "shed",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "19125488",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6171425,
+          49.213554
+        ]
+      },
+      "id": "way/306080305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080306",
+        "building": "warehouse",
+        "building:levels": "3",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "50153668",
+        "roof:levels": "14",
+        "roof:shape": "gabled",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6220128,
+          49.2144499
+        ]
+      },
+      "id": "way/306080306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080307",
+        "building": "warehouse",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "39488535",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6207925,
+          49.2160489
+        ]
+      },
+      "id": "way/306080307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080309",
+        "building": "civic",
+        "building:levels": "2",
+        "building:ruian:type": "15",
+        "ref:ruian:building": "42557526",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6170204,
+          49.2141828
+        ]
+      },
+      "id": "way/306080309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/306080310",
+        "building": "warehouse",
+        "building:levels": "1",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "45547572",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6211256,
+          49.2148567
+        ]
+      },
+      "id": "way/306080310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/660438335",
+        "access": "private",
+        "barrier": "gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6170533,
+          49.2136153
+        ]
+      },
+      "id": "node/660438335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042569551",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6186142,
+          49.2145701
+        ]
+      },
+      "id": "way/1042569551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3287220802",
+        "access": "private",
+        "barrier": "gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6219805,
+          49.2149406
+        ]
+      },
+      "id": "node/3287220802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8829886551",
+        "note": "no entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.616393,
+          49.2144678
+        ]
+      },
+      "id": "node/8829886551"
+    }
+  ]
+}

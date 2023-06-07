@@ -1,0 +1,590 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-06-07T13:17:42Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42297867",
+        "landuse": "military",
+        "name": "Kasárna Jana Babáka"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.5907869,
+              49.2136823
+            ],
+            [
+              16.5908923,
+              49.2136118
+            ],
+            [
+              16.591101,
+              49.2135552
+            ],
+            [
+              16.591364,
+              49.2136262
+            ],
+            [
+              16.5915029,
+              49.2136756
+            ],
+            [
+              16.5915787,
+              49.2137093
+            ],
+            [
+              16.5918641,
+              49.2138688
+            ],
+            [
+              16.5916294,
+              49.2142667
+            ],
+            [
+              16.591732,
+              49.2142918
+            ],
+            [
+              16.5917216,
+              49.2143325
+            ],
+            [
+              16.5919447,
+              49.2143886
+            ],
+            [
+              16.5920956,
+              49.2144333
+            ],
+            [
+              16.5920718,
+              49.2144635
+            ],
+            [
+              16.5918282,
+              49.2149053
+            ],
+            [
+              16.5918724,
+              49.2149169
+            ],
+            [
+              16.5918097,
+              49.215029
+            ],
+            [
+              16.5921837,
+              49.2151215
+            ],
+            [
+              16.5925721,
+              49.2152239
+            ],
+            [
+              16.592599,
+              49.2151727
+            ],
+            [
+              16.5932118,
+              49.2153192
+            ],
+            [
+              16.5932861,
+              49.2153381
+            ],
+            [
+              16.5933279,
+              49.2152638
+            ],
+            [
+              16.5940201,
+              49.2154373
+            ],
+            [
+              16.5934463,
+              49.2163971
+            ],
+            [
+              16.593584,
+              49.2164951
+            ],
+            [
+              16.5934689,
+              49.216699
+            ],
+            [
+              16.5933926,
+              49.2168342
+            ],
+            [
+              16.5932144,
+              49.2167849
+            ],
+            [
+              16.5926387,
+              49.216636
+            ],
+            [
+              16.5923564,
+              49.2171608
+            ],
+            [
+              16.5924169,
+              49.2171765
+            ],
+            [
+              16.5920354,
+              49.2178227
+            ],
+            [
+              16.5930254,
+              49.2180749
+            ],
+            [
+              16.5923357,
+              49.219233
+            ],
+            [
+              16.5923106,
+              49.2192496
+            ],
+            [
+              16.5922856,
+              49.2192563
+            ],
+            [
+              16.5922554,
+              49.2192595
+            ],
+            [
+              16.590092,
+              49.2186732
+            ],
+            [
+              16.590827,
+              49.2175045
+            ],
+            [
+              16.590682,
+              49.2174658
+            ],
+            [
+              16.5905283,
+              49.2174282
+            ],
+            [
+              16.5907685,
+              49.2170474
+            ],
+            [
+              16.5901436,
+              49.2168756
+            ],
+            [
+              16.5899767,
+              49.2171162
+            ],
+            [
+              16.5896509,
+              49.2171636
+            ],
+            [
+              16.5895221,
+              49.217337
+            ],
+            [
+              16.5885305,
+              49.2170717
+            ],
+            [
+              16.5888881,
+              49.2165398
+            ],
+            [
+              16.5894682,
+              49.2156758
+            ],
+            [
+              16.590094,
+              49.2146901
+            ],
+            [
+              16.5907869,
+              49.2136823
+            ]
+          ]
+        ]
+      },
+      "id": "way/42297867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702915",
+        "building": "hospital",
+        "building:levels": "5",
+        "roof:shape": "gabled",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5924295,
+          49.218619
+        ]
+      },
+      "id": "way/51702915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702916",
+        "building": "apartments",
+        "building:levels": "4",
+        "roof:shape": "gabled",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5913685,
+          49.2186635
+        ]
+      },
+      "id": "way/51702916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702921",
+        "building": "yes",
+        "building:levels": "9",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5928265,
+          49.216074
+        ]
+      },
+      "id": "way/51702921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702925",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5924266,
+          49.2152679
+        ]
+      },
+      "id": "way/51702925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702931",
+        "building": "industrial",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.592007,
+          49.2142455
+        ]
+      },
+      "id": "way/51702931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702933",
+        "building": "yes",
+        "building:levels": "1",
+        "roof:shape": "gabled",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.591134,
+          49.2136355
+        ]
+      },
+      "id": "way/51702933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702937",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.590722,
+          49.2157465
+        ]
+      },
+      "id": "way/51702937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702960",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.591264,
+          49.217436
+        ]
+      },
+      "id": "way/51702960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702961",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.592057,
+          49.2174915
+        ]
+      },
+      "id": "way/51702961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702963",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.591446,
+          49.2165355
+        ]
+      },
+      "id": "way/51702963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702964",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5907015,
+          49.2161605
+        ]
+      },
+      "id": "way/51702964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702966",
+        "building": "yes",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.59154,
+          49.2170785
+        ]
+      },
+      "id": "way/51702966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702968",
+        "building": "apartments",
+        "building:levels": "5",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "source": "cuzk:km",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.590664,
+          49.2181655
+        ]
+      },
+      "id": "way/51702968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51702969",
+        "building": "civic",
+        "leisure": "sports_centre",
+        "name": "Tělocvična Chodská",
+        "source": "cuzk:km",
+        "sport": "multi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.591682,
+          49.218098
+        ]
+      },
+      "id": "way/51702969"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840192529",
+        "building": "yes",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "89160967",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5921082,
+          49.2155354
+        ]
+      },
+      "id": "way/840192529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/840192530",
+        "building": "service",
+        "building:ruian:type": "19",
+        "ref:ruian:building": "79715524",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5923911,
+          49.2179576
+        ]
+      },
+      "id": "way/840192530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/993433885",
+        "building": "warehouse",
+        "building:levels": "1",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5898587,
+          49.2152105
+        ]
+      },
+      "id": "way/993433885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/993433887",
+        "building": "garage",
+        "building:ruian:type": "18",
+        "ref:ruian:building": "39471551",
+        "source": "cuzk:ruian",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5904086,
+          49.2144141
+        ]
+      },
+      "id": "way/993433887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1837383051",
+        "barrier": "gate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5932118,
+          49.2153192
+        ]
+      },
+      "id": "node/1837383051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1837383079",
+        "access": "no",
+        "barrier": "gate",
+        "bicycle": "no",
+        "foot": "no",
+        "horse": "no",
+        "motor_vehicle": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.590682,
+          49.2174658
+        ]
+      },
+      "id": "node/1837383079"
+    }
+  ]
+}
