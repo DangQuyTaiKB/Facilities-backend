@@ -11,8 +11,8 @@ import os
 current_directory = os.path.dirname(os.path.abspath(__file__))
 
 # Kết hợp đường dẫn tuyệt đối với tên tệp JSON
-json_file_path_1 = os.path.join(current_directory, 'kasarnaCP.geojson')
-json_file_path_2 = os.path.join(current_directory, 'kasarnaCP.geojson')
+json_file_path_1 = os.path.join(current_directory, '..','kasarnaCP.geojson')
+json_file_path_2 = os.path.join(current_directory,'..', 'kasarnaCP.geojson')
 
 # Đọc dữ liệu từ tệp JSON
 with open (json_file_path_1,"r") as file:
@@ -46,8 +46,16 @@ def randomUUID(limit):
     random_uuid = [uuid.uuid4() for _ in range(limit)]
     return random_uuid
 
+def randomFacilityName():
+    names = ["Name"]
+    return random.choice(names)
+
 def randomFacilityAddress():
-    names = ["Adresa1", "Adresa2", "Adresa3", "Adresa4", "Adresa5"]
+    names = ["Address"]
+    return random.choice(names)
+
+def randomFacilityLabel():
+    names = ["Label"]
     return random.choice(names)
 
 def randomCapacity():
@@ -82,9 +90,9 @@ def determineFacilityTypes():
 def CreateSubArea(master_id, facility_type,feature):
     return {
         'id':feature["id"],
-        'name':feature["properties"]["name"],
+        'name':randomFacilityName(), #feature["properties"]["name"],
         'address':randomFacilityAddress(),
-        'label':feature["properties"]["building"],
+        'label': randomFacilityLabel(), #feature["properties"]["building"],
         'capacity':randomCapacity(),
         'geometry':feature["geometry"]["type"],
         'geolocation':feature["geometry"]["coordinates"],
@@ -112,6 +120,10 @@ def createDataStructureFacilities():
     facilities=[]
     facilities=areas+buildings
     return facilities
+
+
+print(createDataStructureFacilities())
+
 
 def createDataStructureFacilityTypes():
     facilityTypes=determineFacilityTypes()
